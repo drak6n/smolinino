@@ -1,0 +1,31 @@
+.company-life{
+
+}
+
+.company-life__continer{
+max-width: 320px;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 100px;
+}
+
+.company-life__continer-picture{
+width: 25%;
+align-self: center;
+}
+
+.company-life-content{
+font-family: 'pt_sansbold';
+margin-top: 40px;
+margin-bottom: 110px;
+}
+
+.company-life__content-text{
+font-size: 20px;
+text-align: center;
+line-height: 30px;
+}
+320-100
+80-x

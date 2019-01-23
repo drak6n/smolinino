@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/styles/libraries/swiper.css ">
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/fonts.css">
+  <link rel="stylesheet" href="./assets/styles/layout.css">
+  <link rel="stylesheet" href="./assets/styles/components/section-title.css">
+  <link rel="stylesheet" href="./assets/styles/components/cards-events.css">
+  <link rel="stylesheet" href="./assets/styles/footer/footer.css">
+  <link rel="stylesheet" href="./assets/styles/components/cards-offers.css">
+  <link rel="stylesheet" href="./assets/styles/components/company-life.css">
+  <link rel="stylesheet" href="./assets/styles/hero/header.css">
+  <link rel="stylesheet" href="./assets/styles/hero/hero.css">
+  <link rel="stylesheet" href="./assets/styles/components/review.css">
+  <link rel="stylesheet" href="./assets/styles/components/swiper-media.css">
+  <link rel="stylesheet" href="./assets/styles/components/swiper-news.css">
+  <link rel="stylesheet" href="./assets/styles/components/swiper-partner.css">
+
+</head>
+
+<body>
+  <div class="app">
+
+    <header class="header">
+    <!-- dropdown -->
+    <div class="header__container">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            
+            <img class="header__nav-picture" src="assets/images/content/logo.jpg">
+          </a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            Номера и цены
+          </a>
+             <div class="header__nav-popup">
+            <ul class="header__nav-popup-list">
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Номера категории Suite
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Номера категории Standart
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Номера категории Economy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            Рестораны и конференц-залы
+          </a>
+          <div class="header__nav-popup">
+            <ul class="header__nav-popup-list">
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Банкетные зоны
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Конференц-залы
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Доставка блюд
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Бизнес-меню
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            Свадьба
+          </a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            Мероприятия
+          </a>
+           <div class="header__nav-popup">
+            <ul class="header__nav-popup-list">
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Для бизнеса
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Для себя
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Для детей школы и ВУЗа
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">
+            Об отеле
+          </a>
+           <div class="header__nav-popup">
+            <ul class="header__nav-popup-list">
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Фото и видео
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Новости и события
+                </a>
+              </li>
+              <li class="header__nav-popup-item">
+                <a class="header__nav-popup-link" href="#">
+                  Мы в СМИ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="header__nav-item">
+          <ul class="header__nav-list-wropper">
+            <li class="header__nav-item-wropper">
+          <a class="header__nav-link" href="#">
+           
+            <div class="header__nav-logo">
+              <svg width="19" height="19" viewBox="0 0 18.71 17.46">
+                <defs>
+                  <!--<style>-->
+                    <!--.cls-1 {-->
+                      <!--fill: none;-->
+                      <!--stroke: #8d6858;-->
+                      <!--stroke-linecap: round;-->
+                      <!--stroke-linejoin: round;-->
+                    <!--}-->
+                  <!--</style>-->
+                </defs>
+                <g>
+                  <path class="cls-1"
+                        d="M10,13.07h0A20,20,0,0,1,4.39,7.44h0a.73.73,0,0,1,.16-1l1.26-1a1.35,1.35,0,0,0,.35-1.73L4.67,1.15A1.27,1.27,0,0,0,3.22.55h0A3.4,3.4,0,0,0,.94,2.65h0a7,7,0,0,0,.9,6.56l.88,1.2a19.81,19.81,0,0,0,4.33,4.34l1.2.87a7,7,0,0,0,6.56.9h0a3.38,3.38,0,0,0,2.1-2.28h0a1.26,1.26,0,0,0-.6-1.45L13.68,11.3a1.33,1.33,0,0,0-1.72.35l-1,1.26A.72.72,0,0,1,10,13.07Z"/>
+                  <path class="cls-1" d="M9.81,7.11a5,5,0,0,1,8.4,3.55"/>
+                  <polyline class="cls-1" points="10.63 4.64 9.81 7.11 12.28 7.11"/>
+                </g>
+              </svg>
+              
+            </div>
+
+          </a>
+       </li>
+        <li class="header__nav-item-wropper" >
+          
+            +7 (351) 729-82-29
+         
+        </li>
+      </ul>
+       </li>
+
+
+
+      </ul>
+    </div>
+  </header>
+
+    <section class="hero">
+      <div class="hero__container">
+        <!--<img  class="hero__picture" src="assets/images/content/77.jpg">-->
+        <div class="hero__content">
+          <h1 class="hero__title">Smolinopark</h1>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section class="section-title">
+      <div class="section-title__wrapper">
+        <h2 class="section-title__title">Ищете гостиницу в Челябинске?</h2>
+      </div>
+    </section>
+
+    <section class="cards-events">
+      <div class="cards-events__container">
+        <div class="cards-events__list-wrapper">
+          <ul class="cards-events__list">
+            <li class="cards-events__item">
+              <a class="cards-events__link" href="#">
+                <div class="cards__link-picture-wrapper">
+                  <img
+                    class="cards__link-picture"
+                    src="./assets/images/content/11.jpg"
+                    alt=""
+                  />
+                </div>
+               <div class="cards__link-headline-wrapper">
+                 <h4 class="cards__link-headline">
+                   7 банкетных залов
+                 </h4>
+                 <p class="cards__link-text"> вместительностью от 10 до 250 
+                 человек, в том числе летние рестораны </p>
+               </div>
+              </a>
+            </li>
+            <li class="cards-events__item">
+              <a class="cards-events__link" href="#">
+                <div class="cards__link-picture-wrapper">
+                  <img
+                    class="cards__link-picture"
+                    src="./assets/images/content/22.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="cards__link-headline-wrapper">
+                 <h4 class="cards__link-headline">
+                    2 конференц-зала
+                 </h4>
+                 <p class="cards__link-text"> и комната переговоров,  оснащенные мультимедийным оборудованием</p>
+               </div>
+              </a>
+            </li>
+            <li class="cards-events__item">
+              <a class="cards-events__link" href="#">
+                <div class="cards__link-picture-wrapper">
+                  <img
+                    class="cards__link-picture"
+                    src="./assets/images/content/33.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="cards__link-headline-wrapper">
+                 <h4 class="cards__link-headline">
+                   2 ресторана a la carte. 
+                 </h4>
+                 <p class="cards__link-text"> Блюда еевропейской и русской, а так же барбекю-меню </p>
+               </div>
+              </a>
+            </li>
+            <li class="cards-events__item">
+              <a class="cards-events__link" href="#">
+                <div class="cards__link-picture-wrapper">
+                  <img
+                    class="cards__link-picture"
+                    src="./assets/images/content/44.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="cards__link-headline-wrapper">
+                 <h4 class="cards__link-headline">
+                   Организация мероприятий "под ключ"
+                 </h4>
+                 <p class="cards__link-text"> и профессиональный
+                 кейтеринг </p>
+               </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="company-life">
+      <div class="company-life__continer">
+        
+        <img class="company-life__continer-picture" src="assets/images/icons/eleven.svg">
+      
+        <div class="company-life-content">
+          <h3 class="company-life__content-text">
+            Уже более одинадцати лет мы радуем наших гостей!
+        </h3>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-title">
+      <div class="section-title__wrapper">
+        <h2 class="section-title__title">Отцените номера, территорию и атмосферу - смотрите фото и видео</h2>
+      </div>
+    </section>
+
+
+    <section class="swiper-media">
+    <div class="swiper-media__container">
+
+      <div class="swiper-media__list-wrapper swiper-container">
+        <ul class="swiper-media__list swiper-wrapper">
+          <li class="swiper-media__item swiper-slide">
+            <img src="assets/images/content/sw3.jpg">
+          </li>
+          <li class="swiper-media__item swiper-slide">
+            <img src="assets/images/content/sw1.jpg">
+          </li>
+          <li class="swiper-media__item swiper-slide">
+            <img src="assets/images/content/sw2.jpg">
+          </li>
+          <li class="swiper-media__item swiper-slide">
+           <img src="assets/images/content/sw3.jpg">
+         </li>
+           <li class="swiper-media__item swiper-slide">
+            <img src="assets/images/content/sw1.jpg">
+          </li>
+          <li class="swiper-media__item swiper-slide">
+            <img src="assets/images/content/sw2.jpg">
+          </li>
+          <li class="swiper-media__item swiper-slide">
+           <img src="assets/images/content/sw3.jpg">
+         </li>
+        </ul>
+      </div>
+
+      <div class="swiper-media__button-next swiper-button-next"></div>
+      <div class="swiper-media__button-prev swiper-button-prev"></div>
+    </div>
+  </section>
+
+
+
+    <section class="section-title">
+      <div class="section-title__wrapper">
+        <h2 class="section-title__title section-title__title-actions">Лучшие предложения этого месяца</h2>
+      </div>
+    </section>
+
+ <section class="cards-actions">
+      <div class="cards-actions__container">
+        <div class="cards-actions__list-wrapper">
+          <ul class="cards-actions__list">
+            <li class="cards-actions__item">
+              <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/gosty.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">Корпоротианым гостям</h4>
+                  <p class="cards-actions__content-paragraph">11 спец. предложений</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-actions__item">
+              <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/cvadba.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">Свадьбы</h4>
+                  <p class="cards-actions__content-paragraph">8 спец. предложений</p>
+
+                  <div class="cards-actions__content-link-wrapper">
+                    <div class="cards-actions__content-link" href="#">Смотреть все акции</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="cards-actions__item">
+             <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/spa.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">СПА-центер</h4>
+                  <p class="cards-actions__content-paragraph">3 акции</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-actions__item">
+             <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/stol.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">Банкеты</h4>
+                  <p class="cards-actions__content-paragraph">6 акций</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-actions__item">
+              <div class="cards-actions__link cards-actions__link--stock" href="#">
+
+              <div class="cards-actions__content cards-actions__content--stock">
+                <h4 class="cards-actions__content-title cards-actions__content-title--stock">
+                  Узнавайте о наших скидках, акциях и новинках первыми!
+                </h4>
+                <div class="cards-actions__content-link-wrapper cards-actions__content-link-wrapper--stock">
+                  <p>
+                    Отдыхайте в Smolinopark с семьей, друзьями или коллегами, получайте приятные бонусы и подарки!
+                  </p>
+                  <p>
+                    приятные бонусы и подарки! Для постоянных клиентов – особенное предложение.
+                  </p>
+                </div>
+                <div class="cards-actions__content-box-wrapper">
+                  <div class="cards-actions__content-picture-wrapper">
+                    <img
+                        class="cards-actions__content-picture"
+                        src="./assets/images/content/box.png"
+                        alt=""
+                    />
+                  </div>
+                  <div class="cards-actions__content-text">
+                    Подпишитесь на рассылку, письма 2 раза в месяц:
+                  </div>
+                </div>
+                <div class="cards-actions__form-wrapper">
+                  <form>
+
+                    <div class="cards-actions__send-wrapper">
+                      <!--<label for="text">label</label>-->
+                      <input
+                          class="cards-actions__send-input"
+                          id="text"
+                          type="text"
+                          name="email"
+                          placeholder="Ваш e–mail*"
+                      />
+                      <button
+                          class="cards-actions__send-submit"
+                          type="submit"
+                      >
+                        Подписаться
+                      </button>
+                    </div>
+
+                  </form>
+                </div>
+
+              </div>
+
+            </div>
+            </li>
+            <li class="cards-actions__item">
+              <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/parus.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">Банкеты</h4>
+                  <p class="cards-actions__content-paragraph">6 акций</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-actions__item">
+             <a class="cards-actions__link" href="#">
+                <img
+                  class="cards-actions__link-picture"
+                  src="./assets/images/content/ludi.jpg"
+                  alt=""
+                />
+                <div class="cards-actions__content">
+                  <h4 class="cards-actions__content-title">Банкеты</h4>
+                  <p class="cards-actions__content-paragraph">6 акций</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section-title">
+      <div class="section-title__wrapper">
+        <h2 class="section-title__title section-title__title-news">Новости и события</h2>
+      </div>
+    </section>
+
+
+    <section class="swiper-news">
+ <div class="swiper-news__container">
+
+      <div class="swiper-news__list-wrapper swiper-container">
+        <ul class="swiper-news__list swiper-wrapper">
+          <li class="swiper-news__item swiper-slide">
+            <div class="swiper-news__item-content">
+              <h4 class="swiper-news__content-title">
+                29 июля
+              </h4>
+          
+            <img class="swiper-news__item-picture" src="assets/images/content/1sw.jpg">
+            </div>
+          </li>
+          <li class="swiper-news__item swiper-slide">
+            <div class="swiper-news__item-content">
+              <h4 class="swiper-news__content-title">
+                 16 августа
+              </h4>
+          
+            <img class="swiper-news__item-picture" src="assets/images/content/2sw.jpg">
+            </div>
+          </li>
+          <li class="swiper-news__item swiper-slide">
+           <div class="swiper-news__item-content">
+              <h4 class="swiper-news__content-title">
+                23 августа
+              </h4>
+          
+            <img class="swiper-news__item-picture" src="assets/images/content/3sw.jpg">
+            </div>
+          </li>
+          <li class="swiper-news__item swiper-slide">
+           <div class="swiper-news__item-content">
+              <h4 class="swiper-news__content-title">
+                16 августа
+              </h4>
+          
+            <img class="swiper-news__item-picture" src="assets/images/content/2sw.jpg">
+            </div>
+         </li>
+           <li class="swiper-news__item swiper-slide">
+           <div class="swiper-news__item-content">
+              <h4 class="swiper-news__content-title">
+                23 августа
+              </h4>
+          
+            <img class="swiper-news__item-picture" src="assets/images/content/1sw.jpg">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="swiper-news__button-next swiper-button-next"></div>
+      <div class="swiper-news__button-prev swiper-button-prev"></div>
+    <div class="swiper-news__conteiner-submit">
+      <button
+                          class="swiper-news__submit"
+                          type="submit"
+                      >
+                       <h5 class="swiper-news__submit-text"> Календарь всех событий и новостей</h5>
+                      </button>
+    </div>
+  </div>
+  </section>
+
+
+
+ <section class="section-title">
+      <div class="section-title__wrapper">
+        <h2 class="section-title__title section-title__title-feedback">Отзывы наших гостей, рейтинг отеля и полученные награды</h2>
+      </div>
+    </section>
+
+<section class="review">
+  <div class="review__container">
+    <div class="review__container-wrapper">
+      <div class="review__quotes">
+    <img class="review__quotes-picture" src="assets/images/content/1kav.png">
+    </div>
+     <div class="review__container-text-wrapper">
+      <h4 class="review__content-title">
+        Пантелеймона Константиновна
+      </h4>
+        <div class="review__content-wrapper">
+      <p class="review__content-paragraph">
+        Целый мир сладостей и волшебства три дня и две ночи веселья, роскошный банкет с меню от шеф-повора Михаила Быкова, фейерверк, уличные гуляния с обедом прямо в SNOWPARK, неограниченное пользование горками и коньками. Было все! Если вы еще не были на Новогоднем туре в SMOLINOPARK - посмотрите фотоотчет и зажгитесь тем счастьем, которое льется с каждой фотографии.
+      </p>
+    </div>
+    <div class="review__content-stik">
+      <p class="review__content-stik-paragraph">
+        Отзыв на:
+      </p>
+      <div class="review__container-">
+      <img class="review__content-stik-picture" src="assets/images/content/stik.png">
+    </div>
+    </div>
+    <div class="review__number">
+      <h3 class="review__number-paragraph">
+        1/570
+      </h3>
+    </div>
+  </div>
+   <div class=" review__quotes--position">
+    <img class="review__quotes-picture" src="assets/images/content/2kav.png">
+  </div>
+  
+  </div>  
+  </div>
+<div class="review__conteiner-submit">
+      <button
+                          class="review__submit"
+                          type="submit"
+                      >
+                       <h5 class="review-text"> Все отзывы</h5>
+                      </button>
+    </div>
+</section>
+
+
+<section class="swiper-partner">
+ <div class="swiper-partner__container">
+
+      <div class="swiper-partner__list-wrapper swiper-container">
+        <ul class="swiper-partner__list swiper-wrapper">
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner1.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+           <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/parter2.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner3.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner4.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner5.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner1.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+          <li class="swiper-partner__item swiper-slide">
+            <div class="swiper-partner__item-content">
+          <div class="swiper-partner__item-content-picture">
+            <img class="swiper-partner__item-picture" src="assets/images/content/partner3.jpg">
+            </div>
+            <div class="swiper-partner__content-title">
+            <h4 class="swiper-partner__title">
+                2017
+              </h4>
+            </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="swiper-partner__butuon-next swiper-button-next"></div>
+      <div class="swiper-partner__butuon-prev swiper-button-prev"></div>
+  </div>
+  </section>
+
+
+
+<footer class="footer">
+  <section class="footer-speaker">
+    <div class="footer-speak__container-wropper">
+    <div class="footer-speak__container">
+      <ul class="footer-speak__list"> 
+        <li class="footer-speak__item">
+          <a class="footer-speak__conteiner-link" href="#">
+          <h4 class="footer__item-head">
+            Номера и цены
+          </h4>
+          </a>
+        </li>
+         <li class="footer-speak__item">
+          <a class="footer-speak__conteiner-link" href="#">
+          <h4 class="footer__item-head">
+           Ресторан и конференц залы
+         </h4>
+       </a>
+        </li>
+         <li class="footer-speak__item">
+          <a class="footer-speak__conteiner-link" href="#">
+          <h4 class="footer__item-head">
+           Свадьба
+          </h4>
+         </a>
+        </li>
+         <li class="footer-speak__item">
+          <a class="footer-speak__conteiner-link" href="#">
+          <h4 class="footer__item-head">
+            Мероприятия
+          </h4>
+          </a>
+        </li>
+         <li class="footer-speak__item">
+         <a class="footer-speak__conteiner-link" href="#">
+          <h4 class="footer__item-head">
+            Об отеле
+          </h4>
+        </a>
+        </li>
+      </ul>
+      <ul class="footer-speak__list-wrapper">
+        <li class="footer-speak__item-wrapper">
+          Reception: +7 (351) 729-82-29
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  </section>
+</footer>
+
+  <script src="assets/javascript/swiper/swiper.min.js"></script>
+  <script src="assets/javascript/swiper-media.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

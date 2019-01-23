@@ -1,0 +1,81 @@
+.swiper-media{
+
+}
+
+.swiper-media__container{
+  max-width: 1310px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px
+}
+
+.swiper-media__list-wrapper{
+max-width: 1170px;
+margin: 0 auto;  
+
+}
+.swiper-media__item{
+background-color: #e1e1e1;
+min-height: 275px;
+}
+
+.swiper-media .swiper-button-prev {
+      background-size: cover;
+  border-radius: 50%;
+    width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.swiper-media .swiper-button-next {
+    background-size: cover;
+  border-radius: 50%;
+    width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.swiper-media .swiper-button-next{
+  background-image: url(../../images/icons/strelka-pravay.svg);
+  }
+
+.swiper-media  .swiper-button-prev{
+  background-image: url(../../images/icons/strelka.svg);
+
+}
+
+
+/* mobile 
+@media screen and (min-width: 580px) {
+  .swiper-media__list-wrapper {
+    width: 50%;
+  }
+}
+
+/* tablet 
+@media screen and (min-width: 768px) {
+  .swiper-media__list-wrapper {
+    width: 70%;
+    margin-left: 125px;
+  }
+
+}
+
+/* desktop 
+@media screen and (min-width: 1024px) {
+  .cards-actions__item {
+    width: 40%;
+    margin:30px 45px;
+  }
+
+}
+
+/* desktop-wide 
+@media screen and (min-width: 1366px) {
+  .swiper-wrapper {
+    width: 50%;
+    margin:0px;
+    margin-bottom: 30px;
+  }
+
+}
